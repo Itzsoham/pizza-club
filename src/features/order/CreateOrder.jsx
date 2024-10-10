@@ -26,7 +26,7 @@ function CreateOrder() {
   const isSubmitting = navigation.state === "submitting";
 
   const {
-    username,
+    userName,
     status: adressStatus,
     error: adressError,
     address,
@@ -53,7 +53,7 @@ function CreateOrder() {
             className="input grow"
             type="text"
             name="customer"
-            defaultValue={username}
+            defaultValue={userName}
             required
           />
         </div>
