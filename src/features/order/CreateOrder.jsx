@@ -88,7 +88,7 @@ function CreateOrder() {
             )}
           </div>
           {!address && (
-            <span className="absolute right-1 top-[3px] z-10 md:right-[5px] md:top-[5px]">
+            <span className="absolute right-[3px] top-[34.5px] z-10 sm:right-1 sm:top-[3px] md:right-[5px] md:top-[5px]">
               <Button
                 type="small"
                 disabled={isLoadingAdress}
