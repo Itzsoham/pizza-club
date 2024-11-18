@@ -146,7 +146,7 @@ export async function action({ request }) {
   const order = {
     ...data,
     cart: JSON.parse(data.cart),
-    priority: data.priority === true,
+    priority: data.priority === "true",
   };
 
   const errors = {};
